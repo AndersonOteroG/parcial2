@@ -16,7 +16,8 @@ public abstract class Criatura {
    
     public abstract void atacar(Criatura objetivo);
     public abstract void defender(int daño);
-
+    public abstract void lanzarHechizo(Criatura objetivo);
+    public abstract void aprenderHechizo(int daño);
    
     public boolean estaViva() { 
         return salud > 0;
